@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Подкатегории</title>
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+  
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <section class="mobile-header">
+       <div class="mobile-header__logo"><img src="img/mobile-logo.png" alt="" class="img-responsive"></div>
+        <a href="#" class="header__phone mobile-header__phone">+7 (495) 127-76-62</a>
+    </section>
+
+    <header class="header">
+        <div class="header__top-menu-wrap">
+            <nav>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed header__top-menu-but" data-toggle="collapse" data-target="#navbar-top">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-top">
+                    <div class="header__top-menu">
+                        <!-- Add class "header__top-menu-link--active" to link for highlighting like below -->
+                        <a href="#" class="header__top-menu-link header__top-menu-link--active">Главная</a>
+                        <a href="#" class="header__top-menu-link">Возврат</a>
+                        <a href="#" class="header__top-menu-link">Доставка</a>
+                        <a href="#" class="header__top-menu-link">Ремонт турбины</a>
+                        <a href="#" class="header__top-menu-link">Контакты</a>
+                    </div>
+                    <div class="header__menu header__menu--mobile">
+                        <a href="#" class="header__menu-link">Турбины</a>
+                        <a href="#" class="header__menu-link">Картриджи</a>
+                        <a href="#" class="header__menu-link">Клапаны</a>
+                        <a href="#" class="header__menu-link">Прокладки</a>
+                        <a href="#" class="header__menu-link">Геометрия</a>
+                        <a href="#" class="header__menu-link">Ремкомплекты</a>
+                        <a href="#" class="header__menu-link">Роторы</a>
+                        <a href="#" class="header__menu-link">Корпусы</a>
+                        <a href="#" class="header__menu-link">Колесо компрессора</a>
+                        <a href="#" class="header__menu-link">Запчасти для эл. актуаторов</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header__main">
+                        <div class="header__logo"><img src="img/logo.svg" alt="" class="img-responsive"></div>
+                        <div class="header__address">
+                            г. Москва, завод МЕТРОМАШ, ул. Тагильская, дом 4, стр. 4
+                        </div>
+                        <div class="header__phones">
+                            <div class="header__credits">
+                                <span class="header__worktime">Звонок бесплатный</span>
+                                <a href="#" class="header__phone">+7 (800) 333-09-52</a>
+                            </div>
+                            <div class="header__credits">
+                                <span class="header__worktime">Ежедневно с 9:00 до 19:00</span>
+                                <a href="#" class="header__phone">+7 (495) 127-76-62</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav>
+                            <div class="header__menu hidden-xs">
+                                <a href="#" class="header__menu-link">Турбины</a>
+                                <a href="#" class="header__menu-link">Картриджи</a>
+                                <a href="#" class="header__menu-link">Клапаны</a>
+                                <a href="#" class="header__menu-link">Прокладки</a>
+                                <a href="#" class="header__menu-link">Геометрия</a>
+                                <a href="#" class="header__menu-link">Ремкомплекты</a>
+                                <a href="#" class="header__menu-link">Роторы</a>
+                                <a href="#" class="header__menu-link">Корпусы</a>
+                                <a href="#" class="header__menu-link">Колесо компрессора</a>
+                                <a href="#" class="header__menu-link">Запчасти для эл. актуаторов</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header__search-block">
+                        <input type="text" class="header__search-input" placeholder="Поиск по номеру турбины / двигателю">
+                        <button class="orange-button header__search-button">Найти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner__content">
+                        <div class="banner__top">Гарантия <div class="banner__num-wrap"><span class="banner__num">1</span></div> год</div>
+                        <div class="banner__title">Интернет магазин по продаже турбин и комплектующих</div>
+                        <div class="banner__button-wrap">
+                            <button class="banner__button">
+                                Бесплатная консультация
+                                <span class="banner__button-icon"><img src="img/head-phone.svg" alt=""></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORY BLOCK -->
+
+    <section class="page-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="section-title text-center">Выбор модели BMW</h1>
+
+                    <!-- BREADCRUMBS -->
+
+                    <ul class="breads breads--no_bottom">
+                        <li class="breads__item"><a href="#" class="breads__link">Главная</a></li>
+                        <li class="breads__item">Результаты поиска</li>
+                    </ul>
+
+                    <div class="cars">
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars1.png)"></div>
+                            <a href="#" class="cars__link">BMW 1 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars2.png)"></div>
+                            <a href="#" class="cars__link">BMW 2 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars3.png)"></div>
+                            <a href="#" class="cars__link">BMW 3 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars4.png)"></div>
+                            <a href="#" class="cars__link">BMW 4 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars5.png)"></div>
+                            <a href="#" class="cars__link">BMW 5 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars6.png)"></div>
+                            <a href="#" class="cars__link">BMW 6 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars1.png)"></div>
+                            <a href="#" class="cars__link">BMW 1 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars2.png)"></div>
+                            <a href="#" class="cars__link">BMW 2 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars3.png)"></div>
+                            <a href="#" class="cars__link">BMW 3 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars4.png)"></div>
+                            <a href="#" class="cars__link">BMW 4 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars5.png)"></div>
+                            <a href="#" class="cars__link">BMW 5 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars6.png)"></div>
+                            <a href="#" class="cars__link">BMW 6 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars1.png)"></div>
+                            <a href="#" class="cars__link">BMW 1 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars2.png)"></div>
+                            <a href="#" class="cars__link">BMW 2 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars3.png)"></div>
+                            <a href="#" class="cars__link">BMW 3 series</a>
+                        </div>
+                        <div class="cars__item">
+                            <div class="cars__cover" style="background-image: url(img/cars4.png)"></div>
+                            <a href="#" class="cars__link">BMW 4 series</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-text page-text--grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- CATEGORY BLOCK -->
+
+                    <div class="category__top-filter">
+                        <select class="category__select">
+                            <option>Марка автомобиля</option>
+                            <option value="Audi">Audi</option>
+                            <option value="BMW" selected>BMW</option>
+                        </select>
+
+                        <select class="category__select">
+                            <option>Производитель турбины</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+
+                        <select class="category__select">
+                            <option>Модель двигателя</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+
+                        <select class="category__select">
+                            <option>Мощность двигателя</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+
+                        <select class="category__select">
+                            <option>Модель авто</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+
+                        <select class="category__select">
+                            <option>Модель турбины</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+
+                        <select class="category__select">
+                            <option>Объем двигателя</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+
+                        <select class="category__select">
+                            <option>Цена</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+                    </div>
+
+                    <div class="category__button-wrap">
+                        <button class="grey-button">Сбросить</button>
+                        <button class="orange-button">Применить</button>
+                    </div>
+
+                    <div class="category">
+                        <div class="category__filter">
+                            <input type="text" class="category__input" placeholder="Поиск по номеру турбины / двигателю">
+                            <button class="orange-button orange-button--full">Найти</button>
+
+                            <p class="category__left-label">Марка автомобиля</p>
+
+                            <div class="category__list-block">
+                                <div class="category__list">
+                                    <span class="category__cat">Alfa Romeo</span>
+
+                                    <div class="category__subs">
+                                        <a href="#" class="category__sub">80</a>
+                                        <a href="#" class="category__sub">Allroad</a>
+                                        <a href="#" class="category__sub">A1 / S1</a>
+                                        <a href="#" class="category__sub">A2 / S2 / RS2</a>
+                                        <a href="#" class="category__sub">A3 / S3 / RS3</a>
+                                        <a href="#" class="category__sub">A4 / S4 / RS4</a>
+                                        <a href="#" class="category__sub">A5 / S5</a>
+                                        <a href="#" class="category__sub">A6 / S6/ RS6</a>
+                                        <a href="#" class="category__sub">A7</a>
+                                    </div>
+                                </div>
+                                <!-- Add class "category__list--opened" to the opened block -->
+                                <div class="category__list category__list--opened">
+                                    <span class="category__cat">Audi</span>
+
+                                    <div class="category__subs">
+                                        <a href="#" class="category__sub">80</a>
+                                        <!-- Add class "category__sub--active" for active element like below -->
+                                        <a href="#" class="category__sub category__sub--active">Allroad</a>
+                                        <a href="#" class="category__sub">A1 / S1</a>
+                                        <a href="#" class="category__sub">A2 / S2 / RS2</a>
+                                        <a href="#" class="category__sub">A3 / S3 / RS3</a>
+                                        <a href="#" class="category__sub">A4 / S4 / RS4</a>
+                                        <a href="#" class="category__sub">A5 / S5</a>
+                                        <a href="#" class="category__sub">A6 / S6/ RS6</a>
+                                        <a href="#" class="category__sub">A7</a>
+                                    </div>
+                                </div>
+                                <div class="category__list">
+                                    <span class="category__cat">Bentley</span>
+
+                                    <div class="category__subs">
+                                        <a href="#" class="category__sub">80</a>
+                                        <a href="#" class="category__sub">Allroad</a>
+                                        <a href="#" class="category__sub">A1 / S1</a>
+                                        <a href="#" class="category__sub">A2 / S2 / RS2</a>
+                                        <a href="#" class="category__sub">A3 / S3 / RS3</a>
+                                        <a href="#" class="category__sub">A4 / S4 / RS4</a>
+                                        <a href="#" class="category__sub">A5 / S5</a>
+                                        <a href="#" class="category__sub">A6 / S6/ RS6</a>
+                                        <a href="#" class="category__sub">A7</a>
+                                    </div>
+                                </div>
+                                <div class="category__list">
+                                    <span class="category__cat">BMW</span>
+
+                                    <div class="category__subs">
+                                        <a href="#" class="category__sub">80</a>
+                                        <a href="#" class="category__sub">Allroad</a>
+                                        <a href="#" class="category__sub">A1 / S1</a>
+                                        <a href="#" class="category__sub">A2 / S2 / RS2</a>
+                                        <a href="#" class="category__sub">A3 / S3 / RS3</a>
+                                        <a href="#" class="category__sub">A4 / S4 / RS4</a>
+                                        <a href="#" class="category__sub">A5 / S5</a>
+                                        <a href="#" class="category__sub">A6 / S6/ RS6</a>
+                                        <a href="#" class="category__sub">A7</a>
+                                    </div>
+                                </div>
+                                <div class="category__list">
+                                    <span class="category__cat">Cadillac</span>
+
+                                    <div class="category__subs">
+                                        <a href="#" class="category__sub">80</a>
+                                        <a href="#" class="category__sub">Allroad</a>
+                                        <a href="#" class="category__sub">A1 / S1</a>
+                                        <a href="#" class="category__sub">A2 / S2 / RS2</a>
+                                        <a href="#" class="category__sub">A3 / S3 / RS3</a>
+                                        <a href="#" class="category__sub">A4 / S4 / RS4</a>
+                                        <a href="#" class="category__sub">A5 / S5</a>
+                                        <a href="#" class="category__sub">A6 / S6/ RS6</a>
+                                        <a href="#" class="category__sub">A7</a>
+                                    </div>
+                                </div>
+                                <div class="category__list">
+                                    <span class="category__cat">Case</span>
+
+                                    <div class="category__subs">
+                                        <a href="#" class="category__sub">80</a>
+                                        <a href="#" class="category__sub">Allroad</a>
+                                        <a href="#" class="category__sub">A1 / S1</a>
+                                        <a href="#" class="category__sub">A2 / S2 / RS2</a>
+                                        <a href="#" class="category__sub">A3 / S3 / RS3</a>
+                                        <a href="#" class="category__sub">A4 / S4 / RS4</a>
+                                        <a href="#" class="category__sub">A5 / S5</a>
+                                        <a href="#" class="category__sub">A6 / S6/ RS6</a>
+                                        <a href="#" class="category__sub">A7</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="category__left-remont">
+                                <a href="#" class="category__remont-link">Ремонт турбин в Москве</a>
+                                <a href="#" class="category__remont-link">Ремонт картриджей в Москве</a>
+                                <a href="#" class="category__remont-link">Ремонт картриджей турбины в Москве</a>
+                                <a href="#" class="category__remont-link">Ремонт корпуса турбины в Москве</a>
+                                <a href="#" class="category__remont-link">Ремонт картриджей в Москве</a>
+                            </div>
+                        </div>
+                        <div class="category__content">
+
+                            <div class="category__sort-block">
+                                <select class="category__sort">
+                                    <option>По возрастанию цены</option>
+                                    <option>По убыванию цены</option>
+                                </select>
+                            </div>
+
+                            <div class="items category__items">
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block items__block--three">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                            </div>
+
+                            <div class="category__pagination">
+                                <!-- Add class "category__pagination-link--active" for active page link like below -->
+                                <a href="#" class="category__pagination-link category__pagination-link--active">1</a>
+                                <a href="#" class="category__pagination-link">2</a>
+                                <a href="#" class="category__pagination-link">3</a>
+                                <a href="#" class="category__pagination-link">4</a>
+                                <a href="#" class="category__pagination-link">5</a>
+                                <a href="#" class="category__pagination-link">6</a>
+                                <a href="#" class="category__pagination-link">...</a>
+                                <a href="#" class="category__pagination-link">15</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEXT BLOCK -->
+
+    <section class="index-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-title">КУПИТЬ КАРТРИДЖ ТУРБИНЫ. ЗАМЕНА КАРТРИДЖА ТУРБИНЫ И НАДЕЖНЫЙ РЕМОНТ ТУРБИН</h2>
+                    <div class="text">
+                        <p>звестная международная компания «Centr Turbin» уже более 16 лет занимается ремонтом турбин разной сложности, продажей высококачественных импортных автомобильных турбокомпрессоров по демократичным ценам, а также оптовой продажей ремкомплектов для данных узлов. Мы предлагаем вам купить турбину в Украине у официального представителя широко известных во всем мире брендов-изготовителей автотурбин, среди которых Mitsubishi Turbochargers, BorgWarner, KKK, Garrett, Holset, IHI, Schwitzer, CZ.</p>
+                        <p>Мы всегда рады новому сотрудничеству с ремонтными мастерскими, так как у нас в наличии очень большой ассортимент ремкомплектов для турбинных агрегатов, у нас вы сможете найти любую деталь турбокомпрессора и осуществить его надежный ремонт.</p>
+                        <p>В «Centr Turbin» каждый заинтересованный украинский автомобилист всегда может купить турбину оригинального качества на двигатель своего автомобиля или качественно отремонтировать ее с гарантией 1 год. На сайте нашей фирмы вы найдете удобный каталог турбокомпрессоров, турбинных картриджей и прокладок. Кроме этого, к вашим услугам каталоги по подбору таких товаров как клапан турбины и изменяемая геометрия. Наши цены на картридж турбины приемлемы для любого клиента. Многие годы мы специализируемся на ремонтировании и продаже продукции вышеназванных изготовителей с мировым именем и предлагаем своим покупателям оригинальные новые модели и оригинальные запчасти для самых разных видов автотранспортных средств.</p>
+                        <p>На сегодняшний день развитие нашей организации подтверждается большим количеством благодарных автовладельцев, которые обратились к нам по таким вопросам как покупка, установка либо ремонт системы турбонагнетателя. Сейчас у нас открыты три сервисных площадки по ремонту турбин в Украине. Мы осуществляем качественные ремонтные работы по всей Украине. Наши мастерские выполняют профессиональный ремонт турбин в Киеве, Николаеве, Ивано-Франковске и Херсоне. Помимо ремонтных мастерских, мы развиваем собственную сеть фирменных СТО «Centr Turbin». Наша автомастерская по починке и обслуживанию автотурбин в 2016 году вошла в ТОП-100 лучших СТО Украины. За это мы благодарны нашим постоянным клиентам, которые голосовали за нас и подтверждали тем самым должное качество обслуживания в нашей компании.</p>
+                        <h5>Наш спектр услуг</h5>
+                        <p>Украинская компания «Centr Turbin» предлагает своим клиентам такие широко востребованные на сегодняшний день услуги:</p>
+                        <p>
+                            Продажа надежных комплектующих от проверенных фирм-производителей.<br>
+                            Реализация востребованных среди отечественных автолюбителей турбинных клапанов, картриджей и прокладок.<br>
+                            Возможность максимально выгодно продать ваш турбинный узел на нашем официальном интернет-сайте.<br>
+                            Профессиональная установка, обслуживание, замена и ремонт турбин автомобилей и отдельных составляющих оных.<br>
+                            Предоставлять все вышеперечисленные услуги на самом высоком уровне нам позволяет слаженная работа команды компетентных и опытных специалистов, а также наличие всего необходимого для выполнения поставленных задач и требований наших клиентов инструмента и оснащения.
+                        </p>
+                        <h5>Купить турбину на двигатель у нас выгодно!</h5>
+                        <p>Наша организация поставляет и продает высоконадежные турбокомпрессоры для самых разных марок автомобилей по вполне приемлемым ценам. Высокое качество реализуемого нашей компанией товара гарантировано соответственными сертификатами, которые прилагаются к каждому изделию заводом-изготовителем. Обращаем ваше внимание на то, что наша компания работает исключительно с известными и проверенными предприятиями, успешно зарекомендовавшими себя на современном рынке автомобильных запчастей и комплектующих.</p>
+                        <p>У вас имеется прекрасная возможность купить высокопроизводительный автомобильный турбокомпрессор от таких хорошо зарекомендовавших себя брендов-изготовителей как Holset, Garrett, а также Toyota, BorgWarner и прочих не менее именитых производителей. Владельцы автомобилей из Киева, Харькова, Николаева и прочих населенных пунктов нашей страны имеют возможность недорого купить различные модели турбинных изделий, которые представлены в соответствующем каталоге товаров.</p>
+                        <p>Доставка приобретенных товаров осуществляется с помощью проверенных перевозочных компаний, с их списком вы можете ознакомиться, позвонив нашему компетентному менеджеру. Уточнить наличие необходимого изделия вы также можете в режиме телефонного разговора либо с помощью остальных контактов, которые приведены в соответствующем разделе. Также необходимо напомнить, что при необходимости наши специалисты произведут установку нового оборудования в самые короткие сроки. На такой популярный сервис как установка, замена либо ремонт турбины цена у нас очень и очень доступна.</p>
+                        <h5>Чем мы будем полезны для вас?</h5>
+                        <p>Обратите внимание на краткий перечень преимуществ сотрудничества с известной отечественной компанией «Centr Turbin»:</p>
+                        <p>
+                            Мы предоставляем своим клиентам широкий ассортимент качественных товаров по приемлемым ценам;<br>
+                            Оперативная доставка заказанных товаров в любой регион Украины;<br>
+                            Большой опыт работы сотрудников компании и наличие сверхсовременного оборудования и инструмента позволяет выполнять профессиональный ремонт автомобильных турбин в короткие сроки.<br>
+                            Также обращаем ваше внимание на то, что с помощью нашего веб-сайта у каждого украинского автомобилиста есть возможность по хорошей цене продать свой турбокомпрессор. Мы найдем вам покупателя, который захочет купить ваше оборудование действительно выгодно уже в самое ближайшее время.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer__wrap">
+                        <div class="footer__credits">
+                            <div class="footer__logo"><img src="img/footer-logo.png" alt="" class="img-responsive"></div>
+                            <div class="footer__credit-block">
+                                <span class="header__worktime">Ежедневно с 9:00 до 19:00</span>
+                                <a href="#" class="header__phone footer__phone">+7 (495) 127-76-62</a>
+                            </div>
+                            <div class="footer__credit-block">
+                                <p class="footer__address">г. Москва, завод МЕТРОМАШ, ул. Тагильская, дом 4, стр. 4</p>
+                            </div>
+                        </div>
+                        <div class="footer__middle">
+                            <div class="footer__menu-title">Навигация</div>
+                            <div class="footer__menu footer__menu--columns">
+                                <a href="#" class="footer__menu-link">Турбины</a>
+                                <a href="#" class="footer__menu-link">Картриджи</a>
+                                <a href="#" class="footer__menu-link">Клапаны турбин</a>
+                                <a href="#" class="footer__menu-link">Прокладки турбин</a>
+                                <a href="#" class="footer__menu-link">Геометрии турбин</a>
+                                <a href="#" class="footer__menu-link">Ремонт турбин</a>
+                                <a href="#" class="footer__menu-link">Каталог турбин</a>
+                            </div>
+                        </div>
+                        <div class="footer__right">
+                            <div class="footer__info-menu">
+                                <div class="footer__menu-title">Информация</div>
+                                <div class="footer__menu">
+                                    <a href="#" class="footer__menu-link">Возврат</a>
+                                    <a href="#" class="footer__menu-link">Доставка</a>
+                                    <a href="#" class="footer__menu-link">Ремонт турбин</a>
+                                    <a href="#" class="footer__menu-link">Контакты</a>
+                                </div>
+                            </div>
+                            <div class="footer__insta">
+                                <a href="#" class="footer__insta-link">
+                                    <img src="img/insta.svg" alt="" class="img-responsive">
+                                    <span class="footer__insta-text">Мы в Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <a href="#" class="footer__bottom-link">Карта сайта</a>
+            <a href="#" class="footer__bottom-link">Политика конфиденциальности</a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/select2.full.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.category__select').select2({
+                width: '23%',
+                containerCssClass: 'category__select-wrap',
+                dropdownCssClass: 'category__select-dropdown',
+            });
+
+            $('.category__sort').select2({
+                width: '265px',
+                containerCssClass: 'category__sort-wrap',
+                dropdownCssClass: 'category__sort-dropdown',
+            });
+        });
+    </script>
+</body>
+</html>
