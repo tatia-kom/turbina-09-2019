@@ -16,7 +16,7 @@
     @media (max-width: $sm) {
       width: calc(33.3% - 16px);
 
-      &:nth-child(3n+3) {
+      &:nth-child(3n+3):not(.items__block--three) {
         margin-right: 0;
       }
     }
@@ -40,20 +40,34 @@
     }
 
     &--three {
-      width: calc(33% - 30px)!important;
-      margin: 0 15px 32px;
+      width: calc(33% - 16px)!important;
+      margin: 0 24px 24px 0;
 
       @media (max-width: $md) {
         padding: 24px 16px;
       }
 
+      @media (max-width: $sm) {
+        width: calc(50% - 12px)!important;
+
+        &:nth-child(even) {
+          margin-right: 0!important;
+        }
+      }
+
       @media (max-width: $xs) {
-        width: 100%!important;
+        width: 100% !important;
         margin: 0 0 32px;
       }
 
-      &:nth-child(4n+4) {
-        margin-right: 15px;
+      @media (min-width: 992px) {
+        &:nth-child(3n+3) {
+          margin-right: 0!important;
+        }
+
+        &:nth-child(4n+4) {
+          margin-right: 24px;
+        }
       }
     }
   }

@@ -1,7 +1,7 @@
 @import "layout/var";
 
-.orange-button {
-  background: $orange;
+.grey-button {
+  background: $main-grey;
   color: white;
   display: block;
   border: 0;
@@ -19,9 +19,5 @@
   @media (max-width: $xs) {
     width: 125px;
     font-size: 14px;
-  }
-
-  &--full {
-    width: 100%;
   }
 }
