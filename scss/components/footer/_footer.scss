@@ -1,0 +1,222 @@
+@import "layout/var";
+
+.footer {
+  background: radial-gradient(867.95px at 54.49% 47.33%, #323642 0%, #14141B 100%);
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $sm) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media (max-width: $xs) {
+      justify-content: space-between;
+    }
+  }
+
+  // credits
+
+  &__credits {
+    margin: 21px 0 26px;
+  }
+
+  &__logo {
+    margin-bottom: 36px;
+  }
+
+  &__credit-block {
+    margin-top: 27px;
+  }
+
+  &__phone {
+    color: white;
+
+    @media (max-width: $md) {
+      font-size: 20px;
+    }
+  }
+
+  &__address {
+    position: relative;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 47px;
+    width: 270px;
+
+    @media (max-width: $md) {
+      font-size: 14px;
+      width: 245px;
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 35px;
+      height: 35px;
+      background: white url('../img/place.svg') no-repeat center;
+      border-radius: 50%;
+    }
+  }
+
+  // middle
+
+  &__middle {
+    margin-top: 24px;
+    margin-left: 124px;
+    margin-bottom: 10px;
+
+    @media (max-width: $md) {
+      margin-left: 65px;
+    }
+
+    @media (max-width: $sm) {
+      margin-left: auto;
+    }
+
+    @media (max-width: $xs) {
+      margin-left: 0;
+    }
+  }
+
+  &__menu-title {
+    color: white;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    min-width: 148px;
+    padding-bottom: 10px;
+
+    &:after {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 148px;
+      height: 3px;
+      background: $orange;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  &__menu {
+    margin-top: 28px;
+
+    &--columns {
+      column-count: 2;
+      column-gap: 43px;
+      margin-top: 28px;
+      break-inside: avoid;
+    }
+  }
+
+  &__menu-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    transition: 0.3s;
+    display: block;
+    margin: 0 0 16px;
+    break-inside: avoid;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  // right
+
+  &__right {
+    margin-top: 24px;
+    margin-left: 35px;
+    display: flex;
+
+    @media (max-width: $sm) {
+      margin-bottom: 26px;
+    }
+
+    @media (max-width: $xs) {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  &__insta {
+    margin-top: 43px;
+    margin-left: 122px;
+
+    @media (max-width: $md) {
+      margin-left: 50px;
+    }
+
+    @media (max-width: $sm) {
+      margin-left: 100px;
+    }
+
+    @media (max-width: $xs) {
+      margin-left: auto;
+    }
+  }
+
+  &__insta-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    font-family: $font700;
+    transition: 0.3s;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  &__insta-text {
+    display: block;
+    margin-top: 16px;
+
+    @media (max-width: $md) {
+      text-align: center;
+    }
+  }
+
+  // bottom
+
+  &__bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+
+    @media (max-width: $xs) {
+      flex-direction: column;
+      align-items: center;
+      padding: 9px 0;
+    }
+  }
+
+  &__bottom-link {
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin: 0 26px;
+    transition: 0.3s;
+
+    &:hover {
+      color: white;
+    }
+
+    @media (max-width: $xs) {
+      margin: 5px 0;
+    }
+  }
+}

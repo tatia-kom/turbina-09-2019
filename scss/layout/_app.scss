@@ -1,0 +1,66 @@
+@import "layout/var";
+
+body {
+    font-family: $font300;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background: white;
+    position: relative;
+}
+
+p {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-weight: normal;
+}
+header, footer, section, div, span, p, button, a, input, textarea {
+    box-sizing: border-box;
+}
+
+button,input,textarea,select{
+    outline: none;
+}
+button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+form {
+    margin: 0;
+}
+
+input {
+    &::-webkit-input-placeholder { color: $placeholder-color; }
+    &::-moz-placeholder { color: $placeholder-color; }
+    &:-moz-placeholder { color: $placeholder-color; }
+    &::placeholder { color: $placeholder-color; }
+    &::-ms-input-placeholder { color: $placeholder-color; }
+    &:-ms-input-placeholder { color: $placeholder-color; }
+}
+
+strong {
+    font-weight: normal;
+    font-family: $font500;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-collapse {
+    padding: 0;
+}

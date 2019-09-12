@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Museo Sans 300 Light';
+  src: url('../fonts/MuseoSansCyrl-300.eot');
+  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans 500 Medium';
+  src: url('../fonts/MuseoSansCyrl-500.eot');
+  src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans 700 Bold';
+  src: url('../fonts/MuseoSansCyrl-700.eot');
+  src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans 900 Black';
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl-900.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font300: 'Museo Sans 300 Light', sans-serif;
+$font500: 'Museo Sans 500 Medium', sans-serif;
+$font700: 'Museo Sans 700 Bold', sans-serif;
+$font900: 'Museo Sans 900 Black', sans-serif;
+
+//colors
+
+$orange: #FAAC3D;
+$main-grey: #64666B;
+$placeholder-color: #A8A8A8;
+$worktime-color: #8A8A8A;
+
+//media
+
+$md: 1199px;
+$sm: 991px;
+$xs: 767px;
+
+//animations
+
+@-webkit-keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+  }
+}
