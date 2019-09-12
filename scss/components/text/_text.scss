@@ -11,6 +11,18 @@
     color: $main-grey;
   }
 
+  &--about {
+    margin-top: 80px;
+
+    @media (max-width: $sm) {
+      margin-top: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      text-transform: none!important;
+    }
+  }
+
   p {
     margin-bottom: 24px;
     text-align: justify;
@@ -38,6 +50,153 @@
     @media (max-width: $sm) {
       font-size: 18px;
       margin-bottom: 18px;
+    }
+  }
+
+  &__big {
+    font-size: 24px;
+    font-family: $font700;
+
+    @media (max-width: $sm) {
+      font-size: 18px;
+    }
+  }
+
+  &__people {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__person {
+    width: calc(50% - 12px);
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: flex;
+
+    @media (max-width: $xs) {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    &:nth-child(even) {
+      margin-right: 0;
+    }
+  }
+
+  &__person-photo {
+    width: 160px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+
+    @media (max-width: $sm) {
+      width: 135px;
+    }
+  }
+
+  &__person-desc {
+    margin-left: 24px;
+    width: 100%;
+    padding-top: 25px;
+
+    @media (max-width: $sm) {
+      padding-top: 5px;
+    }
+  }
+
+  &__person-name {
+    font-family: $font700;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    margin-bottom: 16px!important;
+
+    @media (max-width: $sm) {
+      font-size: 18px;
+    }
+  }
+
+  &__person-post {
+    font-family: $font300;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    margin-bottom: 16px!important;
+
+    @media (max-width: $sm) {
+      font-size: 16px;
+    }
+  }
+
+  &__person-text {
+    font-family: $font300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #545353;
+    margin-bottom: 5px!important;
+    height: 102px!important;
+    overflow: hidden;
+  }
+
+  &__about-title {
+    font-family: $font700;
+    color: black;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: none!important;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  &__ipad {
+    margin-top: -20px;
+    width: 1140px;
+    height: 781px;
+    background: url('../img/ipad.png') center;
+    background-size: cover;
+
+    @media (max-width: $md) {
+      width: 960px;
+      height: 657px;
+    }
+
+    @media (max-width: $sm) {
+      width: 740px;
+      height: 507px;
+    }
+
+    @media (max-width: $xs) {
+      background: none;
+      height: auto;
+      width: 100%;
+      margin-top: 0;
+    }
+
+    iframe {
+      width: 955px;
+      height: 595px;
+      margin: 108px 0 0 80px;
+      border: 0;
+
+      @media (max-width: $md) {
+        width: 804px;
+        height: 501px;
+        margin: 90px 0 0 68px;
+      }
+
+      @media (max-width: $sm) {
+        width: 620px;
+        height: 386px;
+        margin: 70px 0 0 52px;
+      }
+
+      @media (max-width: $xs) {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+      }
     }
   }
 }
