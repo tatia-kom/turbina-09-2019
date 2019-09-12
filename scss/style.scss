@@ -1,9 +1,33 @@
 @import "layout/var";
 @import "layout/app";
 
+// buttons
+@import "components/button/orange-button";
+
+// titles
+@import "components/title/section-title";
+@import "components/title/text-title";
+
+//texts
+@import "components/text/index-text";
+@import "components/text/text";
+@import "components/text/page-text";
+
 // header
 @import "components/header/header";
 @import "components/header/mobile-header";
+
+// banner
+@import "components/banner/banner";
+
+//catalog
+@import "components/catalog/catalog";
+
+//popular
+@import "components/popular/popular";
+
+//items
+@import "components/items/items";
 
 //footer
 @import "components/footer/footer";

@@ -1,0 +1,9 @@
+@import "layout/var";
+
+.index-text {
+  padding: 40px 0 37px;
+
+  @media (max-width: $xs) {
+    padding: 30px 0 10px;
+  }
+}

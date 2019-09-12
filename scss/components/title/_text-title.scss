@@ -1,0 +1,14 @@
+@import "layout/var";
+
+.text-title {
+  color: $main-grey;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: $font900;
+  margin-bottom: 24px;
+
+  @media (max-width: $xs) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,12 @@
+@import "layout/var";
+
+.section-title {
+  color: $main-grey;
+  font-size: 36px;
+  font-family: $font900;
+  line-height: 43px;
+
+  @media (max-width: $sm) {
+    font-size: 28px;
+  }
+}
