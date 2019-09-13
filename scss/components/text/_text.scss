@@ -199,4 +199,157 @@
       }
     }
   }
+
+
+  // delivery
+
+  &__delivery-title {
+    font-family: $font300!important;
+    line-height: 29px;
+    text-transform: none!important;
+    margin-bottom: 15px!important;
+    margin-top: 20px!important;
+  }
+
+  &__delivery-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &--margin_bottom {
+      margin-bottom: 18px;
+    }
+  }
+
+  &__delivery-address {
+    font-size: 14px!important;
+    line-height: 17px!important;
+    margin-top: 0!important;
+  }
+
+  &__delivery-p {
+    font-family: $font300;
+    font-size: 16px!important;
+    line-height: 19px!important;
+    margin-bottom: 16px!important;
+
+    strong {
+      font-family: $font700;
+      font-size: 22px;
+    }
+
+    &--big {
+      font-size: 18px!important;
+      line-height: 22px!important;
+      margin-top: 20px;
+    }
+
+    &--medium {
+      font-size: 14px!important;
+      line-height: 17px!important;
+      color: #606060;
+    }
+
+    &--small {
+      font-size: 12px!important;
+      line-height: 14px!important;
+      color: #606060;
+    }
+
+    &--red {
+      color: #EE0030!important;
+    }
+  }
+
+  &__delivery-form {
+    width: 312px;
+    margin-right: 32px;
+
+    @media (max-width: $md) {
+      width: 280px;
+    }
+
+    @media (max-width: $sm) {
+      width: calc(50% - 32px);
+    }
+
+    @media (max-width: $xs) {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    label {
+      font-family: $font300!important;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #606060;
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    input {
+      margin-top: 0!important;
+    }
+  }
+
+  &__delivery-input {
+    background: #EFEFEF;
+    border: 0;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    width: 463px;
+
+    @media (max-width: $md) {
+      width: 363px;
+    }
+
+    @media (max-width: $sm) {
+      width: 286px;
+    }
+
+    @media (max-width: $xs) {
+      width: 100%;
+    }
+
+    &:nth-child(1),
+    &:nth-child(3) {
+      width: 645px;
+      flex-shrink: 0;
+      margin-right: 32px;
+
+      @media (max-width: $md) {
+        width: 545px;
+      }
+
+      @media (max-width: $sm) {
+        width: 400px;
+      }
+
+      @media (max-width: $xs) {
+        width: 100%;
+      }
+    }
+
+    &--small {
+      margin-right: 24px!important;
+      width: 210px!important;
+
+      @media (max-width: $xs) {
+        width: 100%!important;
+      }
+    }
+
+    &--full {
+      width: 100%;
+    }
+  }
+
+  &__delivery-button {
+    width: 231px;
+    height: 43px;
+
+    @media (max-width: $xs) {
+      margin: 0 auto 24px;
+    }
+  }
 }
