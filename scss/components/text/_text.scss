@@ -352,4 +352,16 @@
       margin: 0 auto 24px;
     }
   }
+
+  &__item-video {
+    text-align: center;
+    font-size: 36px!important;
+    line-height: 43px!important;
+    text-transform: none!important;
+
+    @media (max-width: $xs) {
+      font-size: 18px!important;
+      line-height: 22px!important;
+    }
+  }
 }

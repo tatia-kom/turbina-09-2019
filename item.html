@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Карточка товара</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+  
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <section class="mobile-header">
+       <div class="mobile-header__logo"><img src="img/mobile-logo.png" alt="" class="img-responsive"></div>
+        <a href="#" class="header__phone mobile-header__phone">+7 (495) 127-76-62</a>
+    </section>
+
+    <header class="header">
+        <div class="header__top-menu-wrap">
+            <nav>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed header__top-menu-but" data-toggle="collapse" data-target="#navbar-top">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-top">
+                    <div class="header__top-menu">
+                        <!-- Add class "header__top-menu-link--active" to link for highlighting like below -->
+                        <a href="#" class="header__top-menu-link header__top-menu-link--active">Главная</a>
+                        <a href="#" class="header__top-menu-link">Возврат</a>
+                        <a href="#" class="header__top-menu-link">Доставка</a>
+                        <a href="#" class="header__top-menu-link">Ремонт турбины</a>
+                        <a href="#" class="header__top-menu-link">Контакты</a>
+                    </div>
+                    <div class="header__menu header__menu--mobile">
+                        <a href="#" class="header__menu-link">Турбины</a>
+                        <a href="#" class="header__menu-link">Картриджи</a>
+                        <a href="#" class="header__menu-link">Клапаны</a>
+                        <a href="#" class="header__menu-link">Прокладки</a>
+                        <a href="#" class="header__menu-link">Геометрия</a>
+                        <a href="#" class="header__menu-link">Ремкомплекты</a>
+                        <a href="#" class="header__menu-link">Роторы</a>
+                        <a href="#" class="header__menu-link">Корпусы</a>
+                        <a href="#" class="header__menu-link">Колесо компрессора</a>
+                        <a href="#" class="header__menu-link">Запчасти для эл. актуаторов</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header__main">
+                        <div class="header__logo"><img src="img/logo.svg" alt="" class="img-responsive"></div>
+                        <div class="header__address">
+                            г. Москва, завод МЕТРОМАШ, ул. Тагильская, дом 4, стр. 4
+                        </div>
+                        <div class="header__phones">
+                            <div class="header__credits">
+                                <span class="header__worktime">Звонок бесплатный</span>
+                                <a href="#" class="header__phone">+7 (800) 333-09-52</a>
+                            </div>
+                            <div class="header__credits">
+                                <span class="header__worktime">Ежедневно с 9:00 до 19:00</span>
+                                <a href="#" class="header__phone">+7 (495) 127-76-62</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav>
+                            <div class="header__menu hidden-xs">
+                                <a href="#" class="header__menu-link">Турбины</a>
+                                <a href="#" class="header__menu-link">Картриджи</a>
+                                <a href="#" class="header__menu-link">Клапаны</a>
+                                <a href="#" class="header__menu-link">Прокладки</a>
+                                <a href="#" class="header__menu-link">Геометрия</a>
+                                <a href="#" class="header__menu-link">Ремкомплекты</a>
+                                <a href="#" class="header__menu-link">Роторы</a>
+                                <a href="#" class="header__menu-link">Корпусы</a>
+                                <a href="#" class="header__menu-link">Колесо компрессора</a>
+                                <a href="#" class="header__menu-link">Запчасти для эл. актуаторов</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header__search-block">
+                        <input type="text" class="header__search-input" placeholder="Поиск по номеру турбины / двигателю">
+                        <button class="orange-button header__search-button">Найти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner__content">
+                        <div class="banner__top">Гарантия <div class="banner__num-wrap"><span class="banner__num">1</span></div> год</div>
+                        <div class="banner__title">Интернет магазин по продаже турбин и комплектующих</div>
+                        <div class="banner__button-wrap">
+                            <button class="banner__button">
+                                Бесплатная консультация
+                                <span class="banner__button-icon"><img src="img/head-phone.svg" alt=""></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEXT BLOCK -->
+
+    <section class="page-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="section-title text-center">Турбины</h1>
+
+                    <!-- BREADCRUMBS -->
+
+                    <ul class="breads">
+                        <li class="breads__item"><a href="#" class="breads__link">Главная</a></li>
+                        <li class="breads__item"><a href="#" class="breads__link">Турбины</a></li>
+                        <li class="breads__item">Товар</li>
+                    </ul>
+
+                    <!-- ITEM CARD -->
+
+                    <div class="item-card">
+                        <div class="item-card__left">
+
+                            <!-- SLIDER BIG -->
+
+                            <div class="item-card__slider">
+                                <div class="item-card__slide"><img src="img/item-big.png" alt="" class="img-responsive"></div>
+                                <div class="item-card__slide"><img src="img/item-big.png" alt="" class="img-responsive"></div>
+                                <div class="item-card__slide"><img src="img/item-big.png" alt="" class="img-responsive"></div>
+                                <div class="item-card__slide"><img src="img/item-big.png" alt="" class="img-responsive"></div>
+                            </div>
+
+                            <!-- SLIDER NAV -->
+
+                            <div class="item-card__slider-nav">
+                                <div class="item-card__slide"><img src="img/item.png" alt="" class="img-responsive"></div>
+                                <div class="item-card__slide"><img src="img/item.png" alt="" class="img-responsive"></div>
+                                <div class="item-card__slide"><img src="img/item.png" alt="" class="img-responsive"></div>
+                                <div class="item-card__slide"><img src="img/item.png" alt="" class="img-responsive"></div>
+                            </div>
+
+                        </div>
+                        <div class="item-card__right">
+                            <h2 class="item-card__title">Турбина</h2>
+                            <p><strong>070-150-023 КАРТРИДЖ ТУРБИНЫ MITSUBISHI, FIAT, HYUNDAI, MD083256, MD083538, MD083373, 28200-42851, 28200-42851</strong></p>
+
+                            <div class="item-card__flex">
+                                <div class="item-card__stars">
+                                    <!-- Add class "item-card__star--fill" to the path tag when the star is filled like below -->
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star item-card__star--fill" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star item-card__star--fill" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star item-card__star--fill" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star item-card__star--fill" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                </div>
+                                <div class="item-card__exist">Наличие: <span>В наличии</span></div>
+                            </div>
+
+                            <div class="item-card__flex">
+                                <div class="item-card__counter">
+                                    <span class="item-card__count-button">-</span>
+                                    <span class="item-card__count">1</span>
+                                    <span class="item-card__count-button">+</span>
+                                </div>
+                                <div class="items__price">52 265 <span class="item-card__currency">руб.</span></div>
+                            </div>
+
+                            <p class="item-card__shield">Произведите замену детали у нас на заводе и получите 1 год гарантии!</p>
+
+                            <div class="item-card__buttons">
+                                <button class="items__button item-card__but--grey">В корзину</button>
+                                <button class="items__button item-card__but">Купить в один клик</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-block">
+                        <ul class="nav nav-tabs item-block__nav">
+                            <li class="active"><a data-toggle="tab" href="#characters">Характеристики</a></li>
+                            <li><a data-toggle="tab" href="#description">Описание</a></li>
+                            <li><a data-toggle="tab" href="#reviews">Отзывы</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="characters" class="tab-pane fade in active">
+                                <table class="item-block__table">
+                                    <tr>
+                                        <td class="item-block__td-caption">Двигатель</td>
+                                        <td>BJL, BJM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Объем двигателя</td>
+                                        <td>2,5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Мощность</td>
+                                        <td>109, 136</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Тип топлива</td>
+                                        <td>Дизель</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Гарантия</td>
+                                        <td>12 месяцев</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Модель турбины</td>
+                                        <td>TD04</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Марка</td>
+                                        <td>Volkswagen</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Модель авто</td>
+                                        <td>Crafter</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Вес</td>
+                                        <td>2 kg</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="item-block__td-caption">Габариты</td>
+                                        <td>15 x 14 x 14 cm</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div id="description" class="tab-pane fade">
+                                <p>Интернет-магазин Техничка Экспресс специализируется на продаже качественных деталей для автомобилей разных марок. Гарантируем высококлассный сервис, быструю обработку заказа, актуальность ассортимента и точное описание всех позиций, подходящих </p>
+                                <p>Картридж турбины TD04 VW Crafter 2.5 109/136 л.с. для бесперебойной работы ТС 1000-050-150 подходит для таких авто: Volkswagen, к которым подходит деталь.</p>
+                                <p>Комплектующие детали для модель авто выполнены из качественного металла. Продукция сертифицирована, имеет гарантию от производителя. Под позицией указаны точные технические характеристики, а также сколько стоит изделие.</p>
+                                <p><strong>Где купить Картридж турбины TD04 VW Crafter 2.5 109/136 л.с. по выгодной цене?</strong><br>В нашем интернет-магазине можно заказать 1000050150JR с доставкой почтой в любой уголок страны. Продукция, представленная в online магазине, изготовлена компанией Jrone в соответствии со строгими стандартами качества. </p>
+                                <p><strong>Почему именно Картридж турбины TD04 VW Crafter 2.5 109/136 л.с.?</strong><br>В наличии большой выбор запчастей, в том числе ( 49377-07421, 49377-07423, 49377-07422, 49377-07424, 49377-07426, 49377-07430, 49377-07460, 49T77-07460, 49377-07460, 076145701D, 076145702B, 076145701J, 076145701K, 076145701C, 076145701P ), для разных марок машин. Удобный поиск. С помощью системы фильтров на сайте можно сделать выборку по цене, модели и другим характеристикам. Выгодная стоимость товаров. Мы оперативно обрабатываем заказы</p>
+                                <p><strong>Доставка удобным для покупателя способом.</strong><br>Если есть вопросы или нужна помощь с выбором автозапчастей для вашего автомобиля, свяжитесь с нами по телефону или онлайн.</p>
+                            </div>
+                            <div id="reviews" class="tab-pane fade">
+                                <div class="item-card__stars">
+                                    <!-- Add class "item-card__star--fill" to the path tag when the star is filled like below -->
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star item-card__star--fill" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star item-card__star--fill" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star item-card__star--fill" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star item-card__star--fill" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="item-card__star" d="M17.6096 8.19258C17.9639 7.84728 18.089 7.34051 17.9361 6.86943C17.7829 6.39834 17.3839 6.06206 16.8938 5.9907L12.5354 5.35742C12.3498 5.33038 12.1894 5.21396 12.1065 5.04564L10.158 1.09674C9.93921 0.65305 9.49516 0.377319 9.00029 0.377319C8.50577 0.377319 8.06172 0.65305 7.84294 1.09674L5.89408 5.046C5.81118 5.21432 5.65043 5.33074 5.4648 5.35778L1.10645 5.99106C0.616625 6.06206 0.217266 6.3987 0.0640822 6.86979C-0.0887412 7.34087 0.0363289 7.84764 0.390634 8.19294L3.54406 11.2667C3.6785 11.3979 3.74013 11.5868 3.70842 11.7713L2.96448 16.1116C2.89852 16.4937 2.99872 16.8653 3.24598 17.1583C3.6302 17.615 4.30097 17.7541 4.83729 17.4723L8.73501 15.4229C8.89792 15.3374 9.10301 15.3382 9.26556 15.4229L13.1636 17.4723C13.3532 17.5721 13.5554 17.6226 13.7641 17.6226C14.1451 17.6226 14.5063 17.4532 14.7546 17.1583C15.0022 16.8653 15.102 16.493 15.0361 16.1116L14.2918 11.7713C14.2601 11.5864 14.3217 11.3979 14.4562 11.2667L17.6096 8.19258Z"/>
+                                    </svg>
+                                </div>
+                                <form action="">
+                                    <input class="text__delivery-input item-block__input" placeholder="Ваше имя">
+                                    <textarea class="item-block__textarea" placeholder="Комментарий"></textarea>
+                                    <div class="item-card__buttons">
+                                        <button class="orange-button">Отправить</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text item-text">
+                        <h2 class="item-text__title item-text__title--delivery">Доставка</h2>
+                        <p>Стоимость доставки по Москве составляет 300 руб. Если сумма заказа превышает 3 000 руб., то доставка бесплатная. Включая районы: Митино, Новокосино, Бутово, Коммунарка, г.Зеленоград, Люберцы.</p>
+                        <p>Стоимость доставки заказов за пределами МКАД: при сумме заказа до 3 000 руб - 300 руб + за каждый километр (до 20 км от МКАД - 50 руб/км, от 20 км от МКАД - 60 руб/км); при сумме заказа от 3 000 руб - за каждый километр (до 20 км от МКАД - 50 руб/км, от 20 км от МКАД - 60 руб/км).</p>
+
+                        <h2 class="item-text__title item-text__title--payment">Оплата</h2>
+                        <p>Стоимость доставки по Москве составляет 300 руб. Если сумма заказа превышает 3 000 руб., то доставка бесплатная. Включая районы: Митино, Новокосино, Бутово, Коммунарка, г.Зеленоград, Люберцы.</p>
+                        <p>Стоимость доставки заказов за пределами МКАД: при сумме заказа до 3 000 руб - 300 руб + за каждый километр (до 20 км от МКАД - 50 руб/км, от 20 км от МКАД - 60 руб/км); при сумме заказа от 3 000 руб - за каждый километр (до 20 км от МКАД - 50 руб/км, от 20 км от МКАД - 60 руб/км).</p>
+
+                        <h2 class="item-text__title item-text__title--guarantee">Гарантия и возврат</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.</p>
+                        <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
+                        <p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.</p>
+                        <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
+                        <p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    </div>
+
+                    <div class="text">
+                        <h2 class="text__item-video">Узнай за 2 минуты как качественно починить турбину <br>и не попасть на повторный ремонт</h2>
+
+                        <div class="text__ipad">
+                            <iframe src="https://www.youtube.com/embed/VX5j60gXPlM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="item-page-flex">
+                        <div class="item-page-flex__block">
+                            <h2 class="section-title text-center">Подходит к этим товарам</h2>
+
+                            <!-- ITEMS -->
+
+                            <div class="items">
+                                <div class="items__block">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                                <div class="items__block">
+                                    <div class="items__image">
+                                        <img src="img/item.png" alt="" class="img-responsive">
+                                    </div>
+                                    <a href="#" class="items__title">Картридж турбины K03 Kia Sorento 2.2 D4HB 197 л.с.</a>
+                                    <p class="items__description">Артикул</p>
+                                    <p class="items__art">218625569823</p>
+                                    <div class="items__price">52 265 <span class="items__currency">руб.</span></div>
+                                    <button class="items__button">Купить</button>
+                                </div>
+                            </div>
+
+                            <h2 class="section-title text-center">Схема проезда</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A22ae12be0320deae12d887198d6d39493fa7a6b20913d6504702adb3d11698e2&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer__wrap">
+                        <div class="footer__credits">
+                            <div class="footer__logo"><img src="img/footer-logo.png" alt="" class="img-responsive"></div>
+                            <div class="footer__credit-block">
+                                <span class="header__worktime">Ежедневно с 9:00 до 19:00</span>
+                                <a href="#" class="header__phone footer__phone">+7 (495) 127-76-62</a>
+                            </div>
+                            <div class="footer__credit-block">
+                                <p class="footer__address">г. Москва, завод МЕТРОМАШ, ул. Тагильская, дом 4, стр. 4</p>
+                            </div>
+                        </div>
+                        <div class="footer__middle">
+                            <div class="footer__menu-title">Навигация</div>
+                            <div class="footer__menu footer__menu--columns">
+                                <a href="#" class="footer__menu-link">Турбины</a>
+                                <a href="#" class="footer__menu-link">Картриджи</a>
+                                <a href="#" class="footer__menu-link">Клапаны турбин</a>
+                                <a href="#" class="footer__menu-link">Прокладки турбин</a>
+                                <a href="#" class="footer__menu-link">Геометрии турбин</a>
+                                <a href="#" class="footer__menu-link">Ремонт турбин</a>
+                                <a href="#" class="footer__menu-link">Каталог турбин</a>
+                            </div>
+                        </div>
+                        <div class="footer__right">
+                            <div class="footer__info-menu">
+                                <div class="footer__menu-title">Информация</div>
+                                <div class="footer__menu">
+                                    <a href="#" class="footer__menu-link">Возврат</a>
+                                    <a href="#" class="footer__menu-link">Доставка</a>
+                                    <a href="#" class="footer__menu-link">Ремонт турбин</a>
+                                    <a href="#" class="footer__menu-link">Контакты</a>
+                                </div>
+                            </div>
+                            <div class="footer__insta">
+                                <a href="#" class="footer__insta-link">
+                                    <img src="img/insta.svg" alt="" class="img-responsive">
+                                    <span class="footer__insta-text">Мы в Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <a href="#" class="footer__bottom-link">Карта сайта</a>
+            <a href="#" class="footer__bottom-link">Политика конфиденциальности</a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.item-card__slider-nav').slick({
+                dots: false,
+                arrows: false,
+                autoplay: false,
+                infinite: false,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.item-card__slider',
+                focusOnSelect: true
+            });
+
+            $('.item-card__slider').slick({
+                dots: false,
+                arrows: false,
+                autoplay: false,
+                infinite: false,
+                asNavFor: '.item-card__slider-nav'
+            });
+        });
+    </script>
+</body>
+</html>

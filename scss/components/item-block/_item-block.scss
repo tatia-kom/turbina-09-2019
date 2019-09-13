@@ -1,0 +1,124 @@
+@import "layout/var";
+
+.item-block {
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+  background: white;
+  margin-bottom: 24px;
+  padding: 24px;
+
+  &__nav {
+    border-bottom: 0;
+    display: flex;
+    margin-bottom: 16px;
+
+    @media (max-width: $xs) {
+      display: block;
+    }
+
+    li {
+      float: none;
+      margin-bottom: 0;
+      padding: 0 24px 0 0;
+
+      @media (max-width: $xs) {
+        padding-right: 0;
+      }
+
+      a {
+        font-family: $font700;
+        font-size: 14px;
+        line-height: 22px;
+        color: black;
+        border: 0;
+        border-bottom: 3px solid transparent;
+        transition: 0.3s;
+        padding: 4px 0;
+
+        &:hover {
+          background: none;
+          border-bottom-color: $orange;
+        }
+      }
+
+      &.active {
+        a {
+          font-size: 18px;
+          line-height: 22px;
+          border: 0;
+          color: black;
+          border-bottom: 3px solid $orange;
+
+          @media (max-width: $xs) {
+            text-align: center;
+          }
+
+          &:hover {
+            border: 0;
+            color: black;
+            border-bottom: 3px solid $orange;
+          }
+        }
+      }
+    }
+  }
+
+  &__input {
+    width: 410px!important;
+
+    @media (max-width: $xs) {
+      width: 100%!important;
+    }
+  }
+
+  &__textarea {
+    width: 100%;
+    resize: none;
+    background: #EFEFEF;
+    border: 0;
+    padding: 12px 16px;
+    height: 196px;
+    margin-bottom: 16px;
+  }
+
+  &__table {
+    margin-left: -24px;
+    margin-top: 24px;
+    width: calc(100% + 48px);
+
+    tr {
+      &:nth-child(odd) {
+        background: #f1f1f1;
+      }
+    }
+
+    td {
+      padding: 10px 24px;
+      line-height: 17px;
+      box-sizing: border-box;
+    }
+  }
+
+  &__td-caption {
+    width: 170px;
+    font-family: $font700;
+
+    @media (max-width: $xs) {
+      width: 50%;
+    }
+  }
+
+  p {
+    color: $main-grey;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    margin-bottom: 18px;
+  }
+
+  .item-card__stars {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+
+}

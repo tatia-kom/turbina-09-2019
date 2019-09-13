@@ -17,6 +17,7 @@
 @import "components/text/index-text";
 @import "components/text/text";
 @import "components/text/page-text";
+@import "components/text/item-text";
 
 // header
 @import "components/header/header";
@@ -40,6 +41,10 @@
 
 //contacts page
 @import "components/contacts-page/contacts-page";
+
+//item page
+@import "components/item-card/item-card";
+@import "components/item-block/item-block";
 
 //footer
 @import "components/footer/footer";

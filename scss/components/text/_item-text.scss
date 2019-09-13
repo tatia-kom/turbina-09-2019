@@ -1,0 +1,62 @@
+@import "layout/var";
+
+.item-text {
+  margin-bottom: 32px;
+
+  &__title {
+    color: #545353!important;
+    font-size: 24px!important;
+    line-height: 50px!important;
+    text-transform: none!important;
+    padding-left: 65px;
+    position: relative;
+
+    @media (max-width: $xs) {
+      line-height: 30px!important;
+      font-size: 18px!important;
+      padding-left: 45px;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+      width: 50px;
+      height: 50px;
+
+      @media (max-width: $xs) {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    &--delivery {
+      &:before {
+        background-image: url('../img/item-icon1.svg');
+      }
+    }
+
+    &--payment {
+      &:before {
+        background-image: url('../img/item-icon2.svg');
+      }
+    }
+
+    &--guarantee {
+      &:before {
+        background-image: url('../img/item-icon3.svg');
+      }
+    }
+  }
+
+  p {
+    font-family: $font300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #545353;
+  }
+}
