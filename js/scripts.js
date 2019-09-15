@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    var banner_top = $('.banner').offset().top;
+    var banner_top = $('.billboard').offset().top;
 
     $(window).resize(function() {
-        banner_top = $('.banner').offset().top;
+        banner_top = $('.billboard').offset().top;
     });
 
     $(window).scroll(function() {
@@ -24,5 +24,10 @@ $(document).ready(function() {
             $('.header__top-menu-wrap--scroll').removeClass('header__top-menu-wrap--scroll');
             $('.mobile-header--show').removeClass('mobile-header--show');
         }
+    });
+
+    $('.category__list').click(function(e) {
+        e.preventDefault();
+        $(this).toggleClass('category__list--opened');
     });
 });
