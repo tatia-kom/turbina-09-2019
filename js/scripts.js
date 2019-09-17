@@ -1,8 +1,11 @@
 $(document).ready(function() {
     var banner_top = $('.billboard').offset().top;
+    catalogResponsive();
 
     $(window).resize(function() {
         banner_top = $('.billboard').offset().top;
+
+        catalogResponsive();
     });
 
     $(window).scroll(function() {
@@ -31,3 +34,16 @@ $(document).ready(function() {
         $(this).toggleClass('category__list--opened');
     });
 });
+
+function catalogResponsive() {
+    if ($(window).width() < 768) {
+        $('.category__content').append($('.category__left-label'));
+        $('.category__content').append($('.category__list-block'));
+        $('.category__content').append($('.category__left-remont'));
+    }
+    else {
+        $('.category__filter').append($('.category__left-label'));
+        $('.category__filter').append($('.category__list-block'));
+        $('.category__filter').append($('.category__left-remont'));
+    }
+}
