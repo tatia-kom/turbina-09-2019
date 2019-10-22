@@ -2,21 +2,13 @@
 
 .billboard {
   background: radial-gradient(881.10px at 54.49% 47.33%, #323642 0%, #14141B 100%);
-  height: 587px;
+  height: 398px;
   position: relative;
   z-index: 0;
   overflow: hidden;
 
-  @media (max-width: 1299px) {
-    height: 485px;
-  }
-
-  @media (max-width: $md) {
-    height: 465px;
-  }
-
   @media (max-width: $sm) {
-    min-height: 375px;
+    min-height: 310px;
     height: auto;
   }
 
@@ -31,7 +23,7 @@
     width: 1235px;
     height: 418px;
     left: 0;
-    top: 117px;
+    top: 0;
     background: url('../img/banner-dots.png');
     background-size: cover;
 
@@ -86,13 +78,9 @@
 
   &__content {
     width: 620px;
-    padding-top: 110px;
+    padding-top: 55px;
     position: relative;
     z-index: 1;
-
-    @media (max-width: 1299px) {
-      padding-top: 85px;
-    }
 
     @media (max-width: $md) {
       width: 465px;
@@ -100,7 +88,7 @@
 
     @media (max-width: $sm) {
       width: 350px;
-      padding-top: 63px;
+      padding-top: 37px;
     }
 
     @media (max-width: $xs) {

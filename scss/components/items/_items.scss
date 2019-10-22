@@ -94,9 +94,13 @@
     font-family: $font700;
     line-height: 17px;
     transition: 0.3s;
-    height: 34px;
+    height: 50px;
     overflow: hidden;
     display: block;
+
+    @media (max-width: $xs) {
+      height: auto;
+    }
 
     &:hover {
       color: $orange;
@@ -112,10 +116,12 @@
 
   &__art {
     color: $main-grey;
-    font-size: 14px;
+    font-size: 7px;
     font-family: $font700;
-    line-height: 17px;
+    line-height: 11px;
     margin-top: 10px;
+    height: 34px;
+    overflow: hidden;
   }
 
   &__price {

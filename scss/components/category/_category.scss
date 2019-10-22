@@ -20,9 +20,19 @@
     @media (max-width: $xs) {
       display: block;
       padding-right: 0;
+    }
 
-      .select2 {
+    .select2 {
+      @media (max-width: $xs) {
         width: 49%!important;
+      }
+
+      &:nth-child(6) {
+        width: 50%!important;
+
+        @media (max-width: $xs) {
+          width: 100%!important;
+        }
       }
     }
   }
@@ -158,7 +168,14 @@
   &__button-wrap {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
+    align-self: flex-start;
+    width: 50%;
+    margin-top: 3px;
+
+    @media (max-width: $xs) {
+      width: 100%;
+      margin-top: 0;
+    }
 
     button {
       margin-left: 24px;
