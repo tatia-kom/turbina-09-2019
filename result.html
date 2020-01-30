@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Результаты поиска</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css" rel="stylesheet">
+  
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <section class="mobile-header">
+       <div class="mobile-header__logo"><img src="img/mobile-logo.png" alt="" class="img-responsive"></div>
+        <a href="#" class="header__phone mobile-header__phone">+7 (495) 127-76-62</a>
+    </section>
+
+    <header class="header">
+        <div class="header__top-menu-wrap">
+            <nav>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed header__top-menu-but" data-toggle="collapse" data-target="#navbar-top">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-top">
+                    <div class="header__top-menu">
+                        <!-- Add class "header__top-menu-link--active" to link for highlighting like below -->
+                        <a href="#" class="header__top-menu-link header__top-menu-link--active">Главная</a>
+                        <a href="#" class="header__top-menu-link">Возврат</a>
+                        <a href="#" class="header__top-menu-link">Доставка</a>
+                        <a href="#" class="header__top-menu-link">Ремонт турбины</a>
+                        <a href="#" class="header__top-menu-link">Контакты</a>
+                    </div>
+                    <div class="header__menu header__menu--mobile">
+                        <a href="#" class="header__menu-link">Турбины</a>
+                        <a href="#" class="header__menu-link">Картриджи</a>
+                        <a href="#" class="header__menu-link">Клапаны</a>
+                        <a href="#" class="header__menu-link">Прокладки</a>
+                        <a href="#" class="header__menu-link">Геометрия</a>
+                        <a href="#" class="header__menu-link">Ремкомплекты</a>
+                        <a href="#" class="header__menu-link">Роторы</a>
+                        <a href="#" class="header__menu-link">Корпусы</a>
+                        <a href="#" class="header__menu-link">Колесо компрессора</a>
+                        <a href="#" class="header__menu-link">Запчасти для эл. актуаторов</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header__main">
+                        <div class="header__logo"><img src="img/logo.svg" alt="" class="img-responsive"></div>
+                        <div class="header__address">
+                            г. Москва, завод МЕТРОМАШ, ул. Тагильская, дом 4, стр. 4
+                        </div>
+                        <div class="header__phones">
+                            <div class="header__credits">
+                                <span class="header__worktime">Звонок бесплатный</span>
+                                <a href="#" class="header__phone">+7 (800) 333-09-52</a>
+                            </div>
+                            <div class="header__credits">
+                                <span class="header__worktime">Ежедневно с 9:00 до 19:00</span>
+                                <a href="#" class="header__phone">+7 (495) 127-76-62</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav>
+                            <div class="header__menu hidden-xs">
+                                <a href="#" class="header__menu-link">Турбины</a>
+                                <a href="#" class="header__menu-link">Картриджи</a>
+                                <a href="#" class="header__menu-link">Клапаны</a>
+                                <a href="#" class="header__menu-link">Прокладки</a>
+                                <a href="#" class="header__menu-link">Геометрия</a>
+                                <a href="#" class="header__menu-link">Ремкомплекты</a>
+                                <a href="#" class="header__menu-link">Роторы</a>
+                                <a href="#" class="header__menu-link">Корпусы</a>
+                                <a href="#" class="header__menu-link">Колесо компрессора</a>
+                                <a href="#" class="header__menu-link">Запчасти для эл. актуаторов</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header__search-block">
+                        <input type="text" class="header__search-input" placeholder="Поиск по номеру турбины / двигателю">
+                        <button class="orange-button header__search-button">Найти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+
+    <section class="billboard">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="billboard__content">
+                        <div class="billboard__title">При покупке картриджа у нас и<br> установки в нашем Тех Центре получите</div>
+                        <div class="billboard__top">1 год гарантии без ограничения пробега</div>
+                        <div class="billboard__icon-wrap">
+                            <p class="billboard__icon-text">Монтаж и демонтаж на месте</p>
+                        </div>
+                        <div class="billboard__button-wrap">
+                            <button class="billboard__button">
+                                Бесплатная консультация
+                                <span class="billboard__button-icon"><img src="img/head-phone.svg" alt=""></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEXT BLOCK -->
+
+    <section class="page-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="section-title text-center">Название страницы</h1>
+
+                    <!-- BREADCRUMBS -->
+
+                    <ul class="breads">
+                        <li class="breads__item"><a href="#" class="breads__link">Главная</a></li>
+                        <li class="breads__item">Результаты поиска</li>
+                    </ul>
+
+                    <!-- RESULTS -->
+
+                    <div class="result">
+                        <div class="result__head">
+                            <span class="result__head-title result__head-title--left">Запчасть</span>
+                            <span class="result__head-title">Применение / Кросс номеров</span>
+                        </div>
+                        <div class="result__block">
+                            <div class="result__top">
+                                <div class="result__top-left">
+                                    <div class="result__top-image" style="background-image: url('img/result-img.png')"></div>
+                                    <div class="result__top-info">
+                                        <p class="result__top-name">№ 00131985</p>
+                                        <p class="result__top-desc">Original VAICO Quaility Turbos migne</p>
+                                    </div>
+                                </div>
+                                <div class="result__top-right">
+                                    <p>77569852, BMW, 56566794,BMW,77569852, BMW, 56566794,BMW,77569852, BMW, 56566794,BMW, 77569852, BMW, 56566794,BMW,77569852,BMW, 56566794,BMW,</p>
+                                </div>
+                            </div>
+
+                            <div class="result__label">Комплектующие</div>
+
+                            <div class="result__table">
+                                <div class="result__item">
+                                    <div class="result__ava">
+                                        <a href="img/result-img.png" target="_blank"><img src="img/result-img.png" alt=""></a>
+                                    </div>
+                                    <div class="result__info">
+                                        <p class="result__mark">AM.GT2260m-4</p>
+                                        <a href="#" class="result__name">Картридж турбины</a>
+                                        <p class="result__type">Тип турбины: <span>GTB2260VK Garrett</span></p>
+                                    </div>
+                                    <div class="result__similar">
+                                        <p class="result__similar-title">Аналоги</p>
+
+                                        <ul class="result__similar-list">
+                                            <li>EE № GT22-023</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                        </ul>
+                                    </div>
+                                    <div class="result__count-price">
+                                        <div class="result__price-wrap">
+                                            <div class="result__price-block">
+                                                <p class="result__price-label">Цена</p>
+                                                <p class="result__price">6 800 руб.</p>
+                                            </div>
+                                        </div>
+                                        <div class="result__count">
+                                            <p class="result__price-label">Количество</p>
+                                            <div class="result__count-wrap">
+                                                <div class="result__count-block">
+                                                    <button class="result__but result-minus">-</button>
+                                                    <span class="result__amount">2</span>
+                                                    <button class="result__but result-plus">+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="orange-button result__button">В корзину</button>
+                                </div>
+                                <div class="result__item">
+                                    <div class="result__ava">
+                                        <a href="img/result-img.png" target="_blank"><img src="img/result-img.png" alt=""></a>
+                                    </div>
+                                    <div class="result__info">
+                                        <p class="result__mark">AM.GT2260m-4</p>
+                                        <a href="#" class="result__name">Картридж турбины</a>
+                                        <p class="result__type">Тип турбины: <span>GTB2260VK Garrett</span></p>
+                                    </div>
+                                    <div class="result__similar">
+                                        <p class="result__similar-title">Аналоги</p>
+
+                                        <ul class="result__similar-list">
+                                            <li>EE № GT22-023</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                        </ul>
+                                    </div>
+                                    <div class="result__count-price">
+                                        <div class="result__price-wrap">
+                                            <div class="result__price-block">
+                                                <p class="result__price-label">Цена</p>
+                                                <p class="result__price">6 800 руб.</p>
+                                            </div>
+                                        </div>
+                                        <div class="result__count">
+                                            <p class="result__price-label">Количество</p>
+                                            <div class="result__count-wrap">
+                                                <div class="result__count-block">
+                                                    <button class="result__but result-minus">-</button>
+                                                    <span class="result__amount">2</span>
+                                                    <button class="result__but result-plus">+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="orange-button result__button">В корзину</button>
+                                </div>
+                                <div class="result__item">
+                                    <div class="result__ava">
+                                        <a href="img/result-img.png" target="_blank"><img src="img/result-img.png" alt=""></a>
+                                    </div>
+                                    <div class="result__info">
+                                        <p class="result__mark">AM.GT2260m-4</p>
+                                        <a href="#" class="result__name">Картридж турбины</a>
+                                        <p class="result__type">Тип турбины: <span>GTB2260VK Garrett</span></p>
+                                    </div>
+                                    <div class="result__similar">
+                                        <p class="result__similar-title">Аналоги</p>
+
+                                        <ul class="result__similar-list">
+                                            <li>EE № GT22-023</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                        </ul>
+                                    </div>
+                                    <div class="result__count-price">
+                                        <div class="result__price-wrap">
+                                            <div class="result__price-block">
+                                                <p class="result__price-label">Цена</p>
+                                                <p class="result__price">6 800 руб.</p>
+                                            </div>
+                                        </div>
+                                        <div class="result__count">
+                                            <p class="result__price-label">Количество</p>
+                                            <div class="result__count-wrap">
+                                                <div class="result__count-block">
+                                                    <button class="result__but result-minus">-</button>
+                                                    <span class="result__amount">2</span>
+                                                    <button class="result__but result-plus">+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="orange-button result__button">В корзину</button>
+                                </div>
+                                <div class="result__item">
+                                    <div class="result__ava">
+                                        <a href="img/result-img.png" target="_blank"><img src="img/result-img.png" alt=""></a>
+                                    </div>
+                                    <div class="result__info">
+                                        <p class="result__mark">AM.GT2260m-4</p>
+                                        <a href="#" class="result__name">Картридж турбины</a>
+                                        <p class="result__type">Тип турбины: <span>GTB2260VK Garrett</span></p>
+                                    </div>
+                                    <div class="result__similar">
+                                        <p class="result__similar-title">Аналоги</p>
+
+                                        <ul class="result__similar-list">
+                                            <li>EE № GT22-023</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                        </ul>
+                                    </div>
+                                    <div class="result__count-price">
+                                        <div class="result__price-wrap">
+                                            <div class="result__price-block">
+                                                <p class="result__price-label">Цена</p>
+                                                <p class="result__price">6 800 руб.</p>
+                                            </div>
+                                        </div>
+                                        <div class="result__count">
+                                            <p class="result__price-label">Количество</p>
+                                            <div class="result__count-wrap">
+                                                <div class="result__count-block">
+                                                    <button class="result__but result-minus">-</button>
+                                                    <span class="result__amount">2</span>
+                                                    <button class="result__but result-plus">+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="orange-button result__button">В корзину</button>
+                                </div>
+                                <div class="result__item">
+                                    <div class="result__ava">
+                                        <a href="img/result-img.png" target="_blank"><img src="img/result-img.png" alt=""></a>
+                                    </div>
+                                    <div class="result__info">
+                                        <p class="result__mark">AM.GT2260m-4</p>
+                                        <a href="#" class="result__name">Картридж турбины</a>
+                                        <p class="result__type">Тип турбины: <span>GTB2260VK Garrett</span></p>
+                                    </div>
+                                    <div class="result__similar">
+                                        <p class="result__similar-title">Аналоги</p>
+
+                                        <ul class="result__similar-list">
+                                            <li>EE № GT22-023</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                        </ul>
+                                    </div>
+                                    <div class="result__count-price">
+                                        <div class="result__price-wrap">
+                                            <div class="result__price-block">
+                                                <p class="result__price-label">Цена</p>
+                                                <p class="result__price">6 800 руб.</p>
+                                            </div>
+                                        </div>
+                                        <div class="result__count">
+                                            <p class="result__price-label">Количество</p>
+                                            <div class="result__count-wrap">
+                                                <div class="result__count-block">
+                                                    <button class="result__but result-minus">-</button>
+                                                    <span class="result__amount">2</span>
+                                                    <button class="result__but result-plus">+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="orange-button result__button">В корзину</button>
+                                </div>
+                                <div class="result__item">
+                                    <div class="result__ava">
+                                        <a href="img/result-img.png" target="_blank"><img src="img/result-img.png" alt=""></a>
+                                    </div>
+                                    <div class="result__info">
+                                        <p class="result__mark">AM.GT2260m-4</p>
+                                        <a href="#" class="result__name">Картридж турбины</a>
+                                        <p class="result__type">Тип турбины: <span>GTB2260VK Garrett</span></p>
+                                    </div>
+                                    <div class="result__similar">
+                                        <p class="result__similar-title">Аналоги</p>
+
+                                        <ul class="result__similar-list">
+                                            <li>EE № GT22-023</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                            <li>JR: 1000-010-359C</li>
+                                        </ul>
+                                    </div>
+                                    <div class="result__count-price">
+                                        <div class="result__price-wrap">
+                                            <div class="result__price-block">
+                                                <p class="result__price-label">Цена</p>
+                                                <p class="result__price">6 800 руб.</p>
+                                            </div>
+                                        </div>
+                                        <div class="result__count">
+                                            <p class="result__price-label">Количество</p>
+                                            <div class="result__count-wrap">
+                                                <div class="result__count-block">
+                                                    <button class="result__but result-minus">-</button>
+                                                    <span class="result__amount">2</span>
+                                                    <button class="result__but result-plus">+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="orange-button result__button">В корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer__wrap">
+                        <div class="footer__credits">
+                            <div class="footer__logo"><img src="img/footer-logo.png" alt="" class="img-responsive"></div>
+                            <div class="footer__credit-block">
+                                <span class="header__worktime">Ежедневно с 9:00 до 19:00</span>
+                                <a href="#" class="header__phone footer__phone">+7 (495) 127-76-62</a>
+                            </div>
+                            <div class="footer__credit-block">
+                                <p class="footer__address">г. Москва, завод МЕТРОМАШ, ул. Тагильская, дом 4, стр. 4</p>
+                            </div>
+                        </div>
+                        <div class="footer__middle">
+                            <div class="footer__menu-title">Навигация</div>
+                            <div class="footer__menu footer__menu--columns">
+                                <a href="#" class="footer__menu-link">Турбины</a>
+                                <a href="#" class="footer__menu-link">Картриджи</a>
+                                <a href="#" class="footer__menu-link">Клапаны турбин</a>
+                                <a href="#" class="footer__menu-link">Прокладки турбин</a>
+                                <a href="#" class="footer__menu-link">Геометрии турбин</a>
+                                <a href="#" class="footer__menu-link">Ремонт турбин</a>
+                                <a href="#" class="footer__menu-link">Каталог турбин</a>
+                            </div>
+                        </div>
+                        <div class="footer__right">
+                            <div class="footer__info-menu">
+                                <div class="footer__menu-title">Информация</div>
+                                <div class="footer__menu">
+                                    <a href="#" class="footer__menu-link">Возврат</a>
+                                    <a href="#" class="footer__menu-link">Доставка</a>
+                                    <a href="#" class="footer__menu-link">Ремонт турбин</a>
+                                    <a href="#" class="footer__menu-link">Контакты</a>
+                                </div>
+                            </div>
+                            <div class="footer__insta">
+                                <a href="#" class="footer__insta-link">
+                                    <img src="img/insta.svg" alt="" class="img-responsive">
+                                    <span class="footer__insta-text">Мы в Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <a href="#" class="footer__bottom-link">Карта сайта</a>
+            <a href="#" class="footer__bottom-link">Политика конфиденциальности</a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.result__ava', {
+            // Custom options
+        });
+    </script>
+</body>
+</html>

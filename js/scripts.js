@@ -33,6 +33,28 @@ $(document).ready(function() {
         e.preventDefault();
         $(this).toggleClass('category__list--opened');
     });
+
+    // results
+
+    $('.result__table').on('click', '.result-minus', function() {
+        var count = $(this).next().text();
+        if (parseInt(count) > 0) {
+            $(this).next().text(count-1);
+        }
+    });
+
+    $('.result__table').on('click', '.result-plus', function() {
+        var count = parseInt($(this).prev().text());
+        $(this).prev().text(count+1);
+    });
+
+    $('.result__table').on('click', '.result__info', function () {
+        location.href = $(this).find('a').attr('href');
+    });
+    
+    $('.result__table').on('click', '.result__similar', function () {
+        location.href = $(this).prev().find('a').attr('href');
+    });
 });
 
 function catalogResponsive() {
