@@ -59,10 +59,12 @@ $(document).ready(function() {
     $('.result__label').click(function() {
         if ($(this).hasClass('result__label--opened')) {
             $(this).removeClass('result__label--opened');
+            $(this).text('Показать комплектующие');
             $(this).next().slideUp();
         }
         else {
             $(this).addClass('result__label--opened');
+            $(this).text('Комплектующие');
             $(this).next().slideDown();
         }
     });
