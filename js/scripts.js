@@ -55,6 +55,17 @@ $(document).ready(function() {
     $('.result__table').on('click', '.result__similar', function () {
         location.href = $(this).prev().find('a').attr('href');
     });
+
+    $('.result__label').click(function() {
+        if ($(this).hasClass('result__label--opened')) {
+            $(this).removeClass('result__label--opened');
+            $(this).next().slideUp();
+        }
+        else {
+            $(this).addClass('result__label--opened');
+            $(this).next().slideDown();
+        }
+    });
 });
 
 function catalogResponsive() {

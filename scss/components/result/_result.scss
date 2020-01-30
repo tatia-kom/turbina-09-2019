@@ -1,6 +1,8 @@
 @import "layout/var";
 
 .result {
+  margin-bottom: 60px;
+
   &__head {
     display: flex;
     align-items: center;
@@ -115,6 +117,19 @@
     width: 200px;
     border-top-right-radius: 14px;
     position: relative;
+    cursor: pointer;
+
+    &:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-width: 6px 6px 0 6px;
+      border-style: solid;
+      border-color: white transparent transparent transparent;
+      position: absolute;
+      right: 12px;
+      top: 17px;
+    }
 
     &:after {
       content: '';
@@ -124,13 +139,26 @@
       border: 16px solid transparent; /* Прозрачные границы */
       border-bottom: 16px solid $orange;
       border-left: 16px solid $orange;
+      display: none;
+    }
+
+    &--opened {
+      &:before {
+        border-width: 0 6px 6px 6px;
+        border-color: transparent transparent white transparent;
+        top: 15px;
+      }
+
+      &:after {
+        display: block;
+      }
     }
   }
 
 
 
   &__table {
-    margin-bottom: 60px;
+    display: none;
   }
 
   &__item {
