@@ -68,6 +68,16 @@ $(document).ready(function() {
             $(this).next().slideDown();
         }
     });
+
+    $('.header__menu-link--catalog').click(function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $(this).toggleClass('header__menu-link--active');
+    });
+
+    $('body').click(function() {
+        $('.header__menu-link--catalog').removeClass('header__menu-link--active');
+    });
 });
 
 function catalogResponsive() {
